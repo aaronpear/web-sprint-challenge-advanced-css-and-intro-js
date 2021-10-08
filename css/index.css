@@ -137,16 +137,19 @@ button:hover{
 }
 
 @media(max-width: 500px) {
+    img {
+        object-fit: contain;
+    }
     body {
         font-size: 1rem;
         line-height: 1;;
     }
 
     a {
-        font-size: 1.75rem;
+        font-size: 1.6rem;
     }
     nav {
-        width: 45%;
+        width: 40%;
     }
 
     nav span {
@@ -173,7 +176,6 @@ button:hover{
         justify-content: center;
         align-items: center;
         width: 100%;
-        border: 1px solid red;
         margin-bottom: 10vh;
     }
 
@@ -183,6 +185,7 @@ button:hover{
 
     .artist img {
         height: 25%;
+        width: 75%;
         margin-bottom: 4%;
     }
 }
