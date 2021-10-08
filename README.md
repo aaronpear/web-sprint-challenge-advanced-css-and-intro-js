@@ -22,11 +22,35 @@ Commit your code regularly and meaningfully.
 
 Please answer the following questions below, you may edit the readme file to include your answers below the question.
 
-1. How would you describe acessibility on the web to someone new to programming?
+1. How would you describe accessibility on the web to someone new to programming?
+
+    Creating something accessible on the web in large means creating something that can be accessed and neatly presented through
+    many different devices: desktops, laptops, phones, tablets, etc., as well as accommodating those who may speak different languages
+    or have various disabilities, though that is for the most part not within the scope of this project. This in turn means that us
+    as developers need to determine when, where, and how to implement varying levels of responsive design in our work depending on the
+    needs of the client.
+
 2. Talk about 3 different things you can do to ensure your website is accessible. 
+
+    It is best practice to use responsive rather than fixed units as much as possible when coding in CSS in order to account for
+    varying screen sizes and viewports, or more specifically for key breakpoints for devices that are the most popularly used.
+    You should also always keep in mind to keep your HTML as semantic as possible while retaining a structure and flow of the site
+    that makes sense, which includes using classes and ids meaningfully and efficiently. This is not only for other developers to more easily read your code, but also for screen readers to more easily read your code to further support those with disabilities.
+    After considering all of the basis of your code and building a foundation that you and others can easily work upon, you can then focus on some smaller aspects of your project to further increase accessibility such as consistently utilizing meaningful alt text for images can help for when images do not load or for those who are visually impaired, or using appropriately contrasting colors of
+    font in comparison to its background to ensure legibility or maybe to support those with something like color-blindedness.
+
+
 3. How would you explain the concept of a variable to someone new to programming?
+
+    Variables are a crucial part of programming; you could not reasonably build anything without them if at all. That said, variables in the context of programming act as placeholders for values that we would want to use later in our code. For example, if I worked at a restaurant and wanted to print out the check for a table of 10 people, we would have presumably saved all their items that they've ordered into our system in some form of variable which we can then print out with one button rather than us having to manually remember and calculate the cost of each individual item. This same idea works exactly the same when one part of our code might want to refer back to other variables that we've created before; the data is saved for when we need to use it. Variables can also take different shapes and forms to further organize the process. They might just be a simple number, maybe a string of words, or they might take more complicated forms that can hold, organize, and manipulate data like arrays or objects.
+
 4. What is the purpose of using functions in code?
+
+    Generally, we use functions in code to carry out processes that we need to be repeated in our code to reduce redundancy and make the coding process exponentially more efficient. Instead of writing out a block of code that iterates through an array of objects to retrieve a specific key-value pair every single time we want that piece of data, we would create a function that executes the code needed to grab that point of data whenever we would need to do so.
+
 5. How do you access a key inside of an object inside of an array?
+
+    array[index].key -- or array[index]['key'] if the key holds any spaces or special characters
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
